@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RDPCrystalEDILibrary">
+      <HintPath>bin\Debug\net6.0\RDPCrystalEDILibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="RDPCrystalEDILibrary.Docs.x4010">
+      <HintPath>bin\Debug\net6.0\RDPCrystalEDILibrary.Docs.x4010.dll</HintPath>
+    </Reference>
+    <Reference Include="RDPCrystalEDILibrary.Docs.x5010">
+      <HintPath>bin\Debug\net6.0\RDPCrystalEDILibrary.Docs.x5010.dll</HintPath>
+    </Reference>
+    <Reference Include="RDPCrystalEDILibrary.PrinterForms">
+      <HintPath>bin\Debug\net6.0\RDPCrystalEDILibrary.PrinterForms.dll</HintPath>
+    </Reference>
+    <Reference Include="RDPCrystalEDILibrary.UI.Winforms">
+      <HintPath>bin\Debug\net6.0\RDPCrystalEDILibrary.UI.Winforms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
